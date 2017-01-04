@@ -16,8 +16,6 @@ import ${package}.exception.mapper.RuntimeExceptionMapper;
 public class JerseyConfig extends ResourceConfig {
 
 	public JerseyConfig() {
-		packages("${package}.resource");
-		
 		filters();
 		uploadSupport();
 		exceptionMapper();
